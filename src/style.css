@@ -74,3 +74,16 @@
   border:none;
   cursor: pointer;
 }
+
+/* Meme Image*/
+
+.meme--figure{
+  width: 100%;
+  text-align:center;
+}
+
+.memeImage{
+  width: 477px;
+  height: auto;
+}
+
