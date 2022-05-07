@@ -57,7 +57,7 @@
   text-indent: 5px;
 }
 
-.input-2{
+.input-2 {
   float: right;
 }
 
@@ -71,35 +71,43 @@
   font-weight: 700;
   font-family: "Karla", sans-serif;
   color: #fff;
-  border:none;
+  border: none;
   cursor: pointer;
 }
 
 /* Meme Image*/
 
-.meme--figure{
+.meme--figure {
   width: 500px;
-  text-align:center;
+  text-align: center;
   margin: 20px auto;
   position: relative;
 }
 
-.memeImage{
+.memeImage {
   width: 477px;
   height: auto;
 }
 
-.meme--text{
-  position:absolute;
+.meme--text {
+  position: absolute;
   color: #fff;
+  transform: translateX(-50%);
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
 }
 
-.top{
+.top {
   top: 0px;
   left: 40%;
 }
 
-.bottom{
+.bottom {
   bottom: 0px;
   left: 40%;
 }
