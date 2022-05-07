@@ -78,8 +78,10 @@
 /* Meme Image*/
 
 .meme--figure{
-  width: 100%;
+  width: 500px;
   text-align:center;
+  margin: 20px auto;
+  position: relative;
 }
 
 .memeImage{
@@ -87,3 +89,17 @@
   height: auto;
 }
 
+.meme--text{
+  position:absolute;
+  color: #fff;
+}
+
+.top{
+  top: 0px;
+  left: 40%;
+}
+
+.bottom{
+  bottom: 0px;
+  left: 40%;
+}
